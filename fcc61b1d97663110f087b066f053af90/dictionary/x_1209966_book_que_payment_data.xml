@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f851271997a63110f087b066f053af6e" label="Payment Data" max_length="40" name="x_1209966_book_que_payment_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order ID" max_length="40" name="order_id" type="string"/>
+        <element label="Payment amount" max_length="40" name="payment_amount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment date" max_length="40" name="payment_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment ID" max_length="40" name="payment_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment method" max_length="40" name="payment_method" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
