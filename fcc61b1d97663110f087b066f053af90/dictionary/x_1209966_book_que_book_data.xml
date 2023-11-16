@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ba7023d597a63110f087b066f053af70" label="Book Data" max_length="40" name="x_1209966_book_que_book_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Author" max_length="40" name="author" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Book name" max_length="40" name="book_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery area" max_length="40" name="delivery_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Genre" max_length="40" name="genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service availability" max_length="40" name="service_availability" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

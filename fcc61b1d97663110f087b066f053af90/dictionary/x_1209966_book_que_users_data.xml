@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f971e71997a63110f087b066f053afc2" label="Users Data" max_length="40" name="x_1209966_book_que_users_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Billing address" max_length="40" name="billing_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing city" max_length="40" name="billing_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing state" max_length="40" name="billing_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Credit card expiration date" max_length="40" name="credit_card_expiration_date" type="string"/>
+        <element label="Credit card number" max_length="40" name="credit_card_number" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Email address" max_length="40" name="email_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Library preferences" max_length="40" name="library_preferences" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" max_length="40" name="password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone number" max_length="40" name="phone_number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="User name" max_length="40" name="user_name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

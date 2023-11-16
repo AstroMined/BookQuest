@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_payment_amount" table="x_1209966_book_que_payment_import">
+        <active>true</active>
+        <array>false</array>
+        <attributes>import_attribute_name=payment_amount</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>payment_amount</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_payment_amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">float</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1209966_book_que_payment_import</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 05:13:20</sys_created_on>
+        <sys_id>962b6fd197e63110f087b066f053af25</sys_id>
+        <sys_name>payment_amount</sys_name>
+        <sys_package display_value="Book Quest" source="x_1209966_book_que">fcc61b1d97663110f087b066f053af90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Quest">fcc61b1d97663110f087b066f053af90</sys_scope>
+        <sys_update_name>sys_dictionary_x_1209966_book_que_payment_import_u_payment_amount</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 05:13:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Book Quest">fcc61b1d97663110f087b066f053af90</application>
+        <file_path/>
+        <instance_id>86abbcbadb61edd43050ac44d496193f</instance_id>
+        <instance_name>dev165145</instance_name>
+        <name>sys_dictionary_x_1209966_book_que_payment_import_u_payment_amount</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_payment_amount" table="x_1209966_book_que_payment_import"><active>true</active><array>false</array><attributes>import_attribute_name=payment_amount</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>payment_amount</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_payment_amount</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">float</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1209966_book_que_payment_import</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-16 05:13:20</sys_created_on><sys_id>962b6fd197e63110f087b066f053af25</sys_id><sys_name>payment_amount</sys_name><sys_package display_value="Book Quest" source="x_1209966_book_que">fcc61b1d97663110f087b066f053af90</sys_package><sys_policy/><sys_scope display_value="Book Quest">fcc61b1d97663110f087b066f053af90</sys_scope><sys_update_name>sys_dictionary_x_1209966_book_que_payment_import_u_payment_amount</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-16 05:13:20</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1568394895</payload_hash>
+        <record_name>payment import.payment_amount</record_name>
+        <reverted_from/>
+        <source>f0c61b1d97663110f087b066f053af93</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 05:13:20</sys_created_on>
+        <sys_id>9a2b6fd197e63110f087b066f053af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bd68c4ab60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 05:13:20</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>122b6fd128e6311088db845c852b3038</update_guid>
+        <update_guid_history>122b6fd128e6311088db845c852b3038:1568394895</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ryan_peterson</sys_created_by>
+        <sys_created_on>2023-11-16 05:22:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>30f1355e06524e7092ca757b6882c440</sys_id>
+        <sys_metadata>962b6fd197e63110f087b066f053af25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payment_amount</sys_name>
+        <sys_package display_value="Book Quest" source="x_1209966_book_que">fcc61b1d97663110f087b066f053af90</sys_package>
+        <sys_parent display_value="">c62b2fd197e63110f087b066f053afb9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Book Quest">fcc61b1d97663110f087b066f053af90</sys_scope>
+        <sys_scope_delete display_value="">036f611f87d5453d890b631caea488a9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1209966_book_que_payment_import_u_payment_amount</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1209966_book_que_payment_import_u_payment_amount">9a2b6fd197e63110f087b066f053af38</sys_update_version>
+        <sys_updated_by>ryan_peterson</sys_updated_by>
+        <sys_updated_on>2023-11-16 05:22:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

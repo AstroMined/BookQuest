@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3cb027d597a63110f087b066f053afb2" label="Delivery Data" max_length="40" name="x_1209966_book_que_delivery_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Delivery address" max_length="40" name="delivery_address" type="string"/>
+        <element label="Delivery driver ID" max_length="40" name="delivery_driver_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery ID" max_length="40" name="delivery_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery status" max_length="40" name="delivery_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order ID" max_length="40" name="order_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pickup address" max_length="40" name="pickup_address" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

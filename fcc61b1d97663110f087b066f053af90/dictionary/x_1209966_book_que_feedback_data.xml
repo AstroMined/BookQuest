@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="47d02bd597a63110f087b066f053af05" label="Feedback Data" max_length="40" name="x_1209966_book_que_feedback_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Customer ID" max_length="40" name="customer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Feedback comments" max_length="67" name="feedback_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Feedback ID" max_length="40" name="feedback_id" type="string"/>
+        <element label="Feedback rating" max_length="40" name="feedback_rating" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order ID" max_length="40" name="order_id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

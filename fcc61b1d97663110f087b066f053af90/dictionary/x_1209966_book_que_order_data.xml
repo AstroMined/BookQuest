@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bc31efd597a63110f087b066f053afed" label="Order Data" max_length="40" name="x_1209966_book_que_order_data" type="collection">
+        <element label="Customer ID" max_length="40" name="customer_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Items list" max_length="113" name="items_list" type="string"/>
+        <element label="Library service ID" max_length="40" name="library_service_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order date" max_length="40" name="order_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Order ID" max_length="40" name="order_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order status" max_length="40" name="order_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pickup date" max_length="40" name="pickup_date" type="glide_date"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Total cost" max_length="40" name="total_cost" type="float"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
